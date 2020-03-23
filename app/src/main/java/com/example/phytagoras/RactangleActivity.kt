@@ -8,7 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_ractangle.*
 
 class RactangleActivity : AppCompatActivity() {
-    @SuppressLint("SetText")
+
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ractangle)
@@ -25,6 +26,11 @@ class RactangleActivity : AppCompatActivity() {
                 val result = (side1.text.toString().toDouble()) * (side2.text.toString().toDouble())
                 tv_result.text = "Area = $result"
             }
+        }
+
+        clear.setOnClickListener {
+            side1.text.clear()
+            side2.text.clear()
         }
     }
 }

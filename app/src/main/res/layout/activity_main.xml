@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_regular"
-        android:text="PhytaGoras"
+        android:text="@string/phytagoras"
         android:textColor="#070707"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -30,7 +30,6 @@
         android:layout_marginTop="244dp"
         android:layout_marginEnd="52dp"
         android:background="@drawable/circlepicon"
-        android:outlineProvider="paddedBounds"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -52,7 +51,6 @@
         android:layout_height="105dp"
         android:layout_marginStart="52dp"
         android:background="@drawable/trianglepicon"
-        android:outlineProvider="paddedBounds"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_ractangle"
@@ -60,12 +58,11 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/vbtn_phytagoras"
+        android:id="@+id/btn_phytagoras"
         android:layout_width="124dp"
         android:layout_height="105dp"
         android:layout_marginEnd="52dp"
         android:background="@drawable/phtytagoraspicon"
-        android:outlineProvider="paddedBounds"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_circle"

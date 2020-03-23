@@ -3,17 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/colorPrimary"
-    tools:context=".RactangleActivity">
-
+    android:orientation="vertical"
+    tools:context=".TriangleActivity">
 
     <ImageView
         android:layout_width="93dp"
         android:layout_height="90dp"
-        android:layout_marginTop="52dp"
         android:layout_gravity="center"
-        android:background="@drawable/ractangleactivity"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/triangleactivity"
         tools:ignore="ContentDescription,MissingConstraints" />
 
     <TextView
@@ -23,7 +22,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="33dp"
         android:fontFamily="@font/poppins_regular"
-        android:text="@string/ractangle"
+        android:text="Triangle"
         android:textColor="#000000"
         android:textSize="20sp"
         tools:ignore="MissingConstraints" />
@@ -41,29 +40,29 @@
 
 
     <EditText
-        android:id="@+id/side1"
+        android:id="@+id/base"
         android:layout_width="242dp"
         android:layout_height="37dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:textAlignment="center"
         android:background="@drawable/rounded_edit_text"
-        android:hint="side 1"
+        android:hint="1/2 base"
         android:inputType="number"
+        android:textAlignment="center"
         android:textColor="#000"
         android:textColorHint="#BEB6B6"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/side2"
+        android:id="@+id/height"
         android:layout_width="242dp"
         android:layout_height="37dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:textAlignment="center"
         android:background="@drawable/rounded_edit_text"
-        android:hint="side 2"
+        android:hint="height"
         android:inputType="number"
+        android:textAlignment="center"
         android:textColor="#000"
         android:textColorHint="#BEB6B6"
         tools:ignore="MissingConstraints" />
@@ -86,9 +85,9 @@
         android:layout_height="37dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:textColor="#FFFFFF"
-        android:textSize="13sp"
         android:background="@drawable/rounded_button_clear"
-        android:text="Clear" />
+        android:text="Clear"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
 
 </LinearLayout>

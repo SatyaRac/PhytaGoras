@@ -15,10 +15,18 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this, RactangleActivity::class.java)
             startActivity(intent)
         }
-//        btn_circle.setOnClickListener(){
-//            intent = Intent(this, CirleActivity::class.java)
-//            startActivity(intent)
-//        }
+        btn_circle.setOnClickListener {
+            intent = Intent(this, CircleActivity::class.java)
+            startActivity(intent)
+        }
+        btn_triangle.setOnClickListener {
+            intent = Intent(this, TriangleActivity::class.java)
+            startActivity(intent)
+        }
+        btn_phytagoras.setOnClickListener {
+            intent = Intent(this, PhytagorasActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
